@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class P01_SpartanTest {
 
-    String spartanBaseUrl = "http://cydeo.onthewifi.com:8000";
+    String spartanBaseUrl = "http://3.94.120.82:8000";
 
     @Test
     public void getAllSpartans() {

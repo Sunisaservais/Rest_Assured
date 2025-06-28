@@ -40,6 +40,7 @@ public class P03_HamCrestHr extends HrTestBase {
         given()
                 .accept(ContentType.JSON)
                 .queryParam("job_id", "IT_PROG")
+                //.queryParam("q", "{\"job_id\":\"IT_PROG\"}") //APIShorts IP
         .when()
                 .get("/employees")
         .then()
@@ -52,6 +53,9 @@ public class P03_HamCrestHr extends HrTestBase {
                 .body("items.salary", everyItem(greaterThan(3000)))
                 .body("items.first_name", equalTo(names))
                 .body("items.email", containsInAnyOrder("DNGUYEN","DWILLIAMS","AJAMES","BMILLER","VJACKSON"));
+
+                //.body("items.email", containsInAnyOrder("AHUNOLD","BERNST","DAUSTIN","VPATABAL","DLORENTZ")); //APIShorts IP
+
     }
 
       /*

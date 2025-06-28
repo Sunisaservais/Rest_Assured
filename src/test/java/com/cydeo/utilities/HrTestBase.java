@@ -12,5 +12,9 @@ public abstract class HrTestBase {
         baseURI = "http://cydeo.onthewifi.com:1000/ords/hr";
         //MyIpAddress:1000/ords/hr
 
+        //baseURI = "http://34.226.136.145:1000/ords/hr"; //APIShorts IP
+
+
+
     }
 }

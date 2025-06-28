@@ -62,7 +62,7 @@ public class P01_SpartanAuthTest extends SpartanAuthTestBase {
     public void test3() {
 
         given()
-                .pathParam("id", 100)
+                .pathParam("id", 99)
                 .auth().preemptive().basic("Editor", "Editor")
                 .when()
                 .delete("/api/v2/spartans/{id}")
@@ -77,7 +77,7 @@ public class P01_SpartanAuthTest extends SpartanAuthTestBase {
     public void test4() {
 
         given()
-                .pathParam("id", 100)
+                .pathParam("id", 99)
                 .auth().preemptive().basic("Admin", "Admin")
                 .when()
                 .delete("/api/v2/spartans/{id}")

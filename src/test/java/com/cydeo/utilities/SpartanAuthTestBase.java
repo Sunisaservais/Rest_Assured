@@ -11,5 +11,7 @@ public abstract class SpartanAuthTestBase {
 
         baseURI = "http://cydeo.onthewifi.com:7000";
 
+        //baseURI= "http://3.94.120.82:7000/";
+
     }
 }
