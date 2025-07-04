@@ -1,13 +1,12 @@
 package com.cydeo.day02;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class P02_SpartanGetRequests {
+public class P01_SpartanGetRequests {
 
     String baseUrl = "http://cydeo.onthewifi.com:8000";
 
