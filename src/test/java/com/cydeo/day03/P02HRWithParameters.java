@@ -44,5 +44,4 @@ public class P02HRWithParameters extends HrTestBase {
         //And Payload should contain "United States of America"
         assertTrue(response.getBody().asString().contains("United States of America"));
     }
-
 }
