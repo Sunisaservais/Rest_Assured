@@ -13,8 +13,5 @@ public class Test {
                 .get("https://library2.cydeo.com/dashboard");
 
         System.out.println("response.getBody() = " + response.getBody().toString());
-
-
     }
-
 }
