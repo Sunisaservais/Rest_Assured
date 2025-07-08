@@ -8,8 +8,6 @@ public abstract class CydeoTestBase {
 
     @BeforeAll
     public static void init() {
-
         baseURI = "http://3.86.13.225:8080";
-
     }
 }
